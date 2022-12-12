@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
 import { server } from '../index'
-import { Button, Container, Heading, HStack, Image, Radio, RadioGroup, Text, VStack } from '@chakra-ui/react';
+import { Button, Container, HStack, Radio, RadioGroup } from '@chakra-ui/react';
 import Loader from './Loader';
 import ErrorComponent from "./ErrorComponent"
 import CoinCard from './CoinCard';
