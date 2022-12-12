@@ -1,8 +1,12 @@
+import { Alert, AlertIcon } from '@chakra-ui/react'
 import React from 'react'
 
 function ErrorComponent(props) {
   return (
-    <div>{props.message}</div>
+    <Alert status='error' position={"fixed"} bottom={"4"}>
+      <AlertIcon/>
+      {props.message}
+    </Alert>
   )
 }
 
